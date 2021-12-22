@@ -101,7 +101,7 @@ public class RBT {
             }
             else{
                 y = z.parent.parent.left;
-                if (z.color == Color.RED) {
+                if (y.color == Color.RED) {
                     z.parent.color = Color.BLACK;
                     y.color = Color.BLACK;
                     z.parent.parent.color = Color.RED;
