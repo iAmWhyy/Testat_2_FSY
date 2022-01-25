@@ -137,7 +137,7 @@ public class RBT {
 
     private void printDotNode(Node node, boolean isRoot, int index, StringBuilder sb) {
         if (isRoot) {
-            sb.append("digraph g0 {\n");
+            sb.append("digraph G {\n");
             sb.append("node [height=.1, style=filled];\n");
         }
 
